@@ -1,0 +1,18 @@
+{
+  "excel_path": "C:\\path\\to\\サマーインターン管理.xlsx",
+  "sheet_name": "サマーインターン管理",
+  "model": "claude-opus-4-8",
+  "gmail_query": "in:inbox -label:就活処理済み",
+  "max_emails": 30,
+  "processed_label": "就活処理済み",
+  "mark_processed": true,
+  "overwrite_existing": false,
+  "mypage_mark": "済",
+  "columns": {
+    "company": 1,
+    "mypage_registered": 2,
+    "id": 3,
+    "pw": 4,
+    "url": 5
+  }
+}

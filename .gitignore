@@ -1,0 +1,18 @@
+# 秘密情報・自動生成物（絶対に共有しないこと）
+.env
+credentials.json
+token.json
+
+# 個人設定（ローカルパス等を含むため公開しない。config.example.json を配布）
+config.json
+.claude/
+
+# Python / 一時ファイル
+.venv/
+__pycache__/
+*.pyc
+_test_*.py
+_test_*.xlsx
+
+# Excel 一時ロックファイル
+~$*.xlsx
